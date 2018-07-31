@@ -14,6 +14,7 @@
     .lg-heading {
       line-height: 1;
       margin-bottom: 1rem;
+      font-size: 4rem;
     }
   }
   ul.menu-nav,
@@ -42,6 +43,16 @@
       height: 150px;
       background-size: auto 150px;
     }
+  }
+
+  .about-info {
+    grid-template-areas:
+      "bio-image"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+    grid-template-columns: 1fr;
   }
 }
 

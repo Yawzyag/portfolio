@@ -11,7 +11,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: $secondary;
+    background: lighten($color: $secondary, $amount: 4);
     @include easeOut();
   }
 
@@ -22,7 +22,7 @@
       //line 1 rotate
       &:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
-        background: $white;
+        background: set-text-color($primary-color);
       }
 
       //line 2 hide
@@ -33,7 +33,7 @@
       //line 3 rotate
       &:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
-        background: $white;
+        background: set-text-color($primary-color);
       }
     }
   }
@@ -118,7 +118,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut();
 
