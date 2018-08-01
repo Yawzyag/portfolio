@@ -72,7 +72,7 @@
   .menu .nav-link {
     display: inline-block;
     position: relative;
-    font-size: 30px;
+    font-size: 1.9rem;
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
@@ -121,13 +121,14 @@ body {
 h1,
 h2,
 h3 {
+  word-wrap: break-word;
   margin: 0;
   font-weight: 400;
   text-transform: capitalize; }
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 6rem; }
+    font-size: 5rem; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
@@ -271,7 +272,7 @@ main {
   .menu-nav {
     height: 75vh;
     transform: translate3d(-100%, 0, 0);
-    font-size: 24px; }
+    font-size: 1.3rem; }
   .menu-branding {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }

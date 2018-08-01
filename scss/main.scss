@@ -20,12 +20,13 @@ body {
 h1,
 h2,
 h3 {
+  word-wrap: break-word;
   margin: 0;
   font-weight: 400;
   text-transform: capitalize;
 
   &.lg-heading {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   &.sm-heading {
