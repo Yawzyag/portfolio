@@ -128,7 +128,7 @@ h3 {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 5rem; }
+    font-size: 4rem; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
@@ -149,7 +149,7 @@ header {
   color: #eece1a; }
 
 main {
-  padding: 4rem;
+  padding: 3rem;
   min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
