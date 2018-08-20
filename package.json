@@ -9,6 +9,7 @@
   "author": "yesid",
   "license": "MIT",
   "dependencies": {
+    "hoek": "^5.0.4",
     "node-sass": "^4.9.2"
   }
 }
